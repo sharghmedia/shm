@@ -1,0 +1,244 @@
+/*
+Theme Name: yawarDUP ;
+Author: Eng. yawar ;
+Author URI: https://yawar.ir ;
+Version: 2.1
+*/
+
+@font-face{font-family:vazir;font-style:normal;font-weight:normal;src:url('fonts/vazir/Vazir.woff') format('woff'),url('fonts/vazir/Vazir.ttf') format('truetype');}
+
+body{
+  height: 100vh;
+  padding: 0;margin: 0;
+  direction: rtl;
+  font-family: 'vazir';
+  background: #16BF5D;
+  background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);
+  background: linear-gradient(to right, #CB3066, #16BFFD);
+}
+
+.ff-vazir{font-family: 'vazir' !important;}
+.master {padding-top: 8%;position: absolute;width: 100%;height: auto;}
+.master div#stitle{
+    font-family: arial;
+    color: #fff;
+    margin-bottom: 17px;
+}
+
+.master div {
+    text-align: center;
+    margin: 0 auto;
+}
+#gifloader{text-align: center;}
+#dum{
+   padding-right: 0px;
+text-decoration: none;color: #00067d26;
+font-size: 35px;
+}
+.master #inputwrap{
+	text-align: center;
+	margin: 0 auto;
+	max-width: 800px;
+}
+.master h1{color: #fff;font-family: arial;}
+.master span{color: #ddd;}
+.master input.Singleurl {
+    height: 41px;
+    font-size: 18px;
+    color: #333;
+    width: 80%;
+    background: #eee;
+    border-radius: 4px 0px 0px 4px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid rgba(0,0,0,0.5);
+}
+.master input.submitbtn {
+    font-size: 18px;
+    border-radius: 0px 1px 1px 0px;
+    border: 0;
+    font-family: arial;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+    min-width: 19%;
+    height: 41px;
+    margin-left: -5px !important;
+    background: #004dd2;
+    display: inline-block;
+    vertical-align: middle;
+}
+.master input.Singleurl:hover{}
+.master input.submitbtn:hover {
+    background: #009612;
+    color: #fff;
+}
+
+.master .disp span{font-size: 20px}
+
+div.note {
+    color: #fff;
+    font: 15px arial;
+    text-align: left;
+    direction: ltr;
+    padding: 5px;
+    position: fixed;
+    bottom: 14px;
+    left: 0;
+}
+div.note p {
+    color: #ffffff80;
+    font-size: 22px;
+    font-weight: bold;
+    border: 1px dashed;
+}
+
+div.note small a {
+    color: #00d2ff;
+    margin-top: 9px;
+    text-decoration: none;
+    display: block;
+}
+
+.loginform{text-align: center;}
+.loginform input {
+    display: block;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    font-family: arial;
+    padding: 8px 0;
+    border: 2px solid #ddd;
+    margin: 5px auto;
+    border-radius: 3px;
+}
+.loginform button {
+    font-size: 16px;
+    padding: 3px 25px;
+    line-height: 2;
+    cursor: pointer;
+}
+#dumdiv{
+font-size: 10px;
+color: #dadada;
+position: fixed;
+bottom: 10px;
+left: 46.6%;}
+
+.formholder, .multifile{
+background-color: #15111d7d;
+width: 100%;
+padding: 5px 3px;
+border: 2px solid rgba(36, 1, 117, 0.3);
+}
+.formholder img{
+width: 15px;
+margin: 5px;
+}
+
+.multifile textarea{
+width: 95%;
+overflow-y: auto;
+font-size: 15px;
+font-family: 'arial';
+padding: 4px 8px;
+}
+
+.multiuped{width: 77%;
+margin: auto;
+list-style: none;
+background-color: #02010580;
+padding: 15px;}
+.multiuped li {
+    font-size: 17px;
+    font-family: arial;
+    padding: 5px;
+    margin-bottom: 2px;
+    background: #eed;
+    direction: ltr;
+}
+
+.multiuped li a{
+color: #3258ff;
+background: #d8e5f5;
+padding: 2px 4px;
+transition: all 0.4s ease-in;
+}
+.multiuped li a:hover{color: #e37103}
+.dropzone {
+    border: 2px solid rgba(16, 1, 117, 0.3);
+    background: #fff4 url(p1.png);
+    padding: 25px;
+    position: relative;
+    z-index: 10
+}
+
+    .dropzone .dz-message span{
+      color: #fff;
+      font-family: arial;
+      font-size: 19px
+    }
+
+ /* Style the tab *------------------------------------*/
+ #tabs-container{width: 80%}
+ #tabs-container p{color: #c58fea;font-size: 22px;}
+ #tabs-container .pnote p{font-size: 14px}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.ftptable{
+height: 41px;
+width: 100%;
+background:
+#eee;
+border: 1px solid
+rgba(0,0,0,0.5);
+margin: 1px 0px 5px;
+padding: 0 2px;
+}
+.ftptable td input{}
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  width: 20%;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-family: inherit;
+  font-size: 14px
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    background: #d0c5db17;
+  display: none;
+  padding: 6px 12px 25px;
+  border: 1px solid #ccc;
+  border-top: none;
+} 
+
+.tabcontent {
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
